@@ -1,18 +1,505 @@
----
-layout: default
----
+<!DOCTYPE html>
+<!--[if IE 7 ]><html class="ie ie7 lte9 lte8 lte7" lang="en-US"><![endif]-->
+<!--[if IE 8]><html class="ie ie8 lte9 lte8" lang="en-US">	<![endif]-->
+<!--[if IE 9]><html class="ie ie9 lte9" lang="en-US"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="noIE" lang="en-US">
+<!--<![endif]-->
+	<head>
+		<title>Right QA - Software Testing Services</title>
+		<!-- meta -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"/>
+		
+		<!-- google fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Raleway:500,300' rel='stylesheet' type='text/css'>
+		<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Serif:regular,bold"/>
+		
+		<!-- css -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/style.css" media="screen"/>
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+			<script src="assets/js/html5shiv.js"></script>
+			<script src="assets/js/respond.js"></script>
+		<![endif]-->
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+		<!--[if IE 8]>
+	    	<script src="assets/js/selectivizr.js"></script>
+	    <![endif]-->
+	</head>
+	
+	<body>
+		<header class="top-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-xs-5 col-sm-4 header-logo">
+					<br>
+					<a href="index.html"> <h1 class="logo">Right <span class="logo-head">QA</span></h1></a>
+				</div>
+				<div class="col-md-8 col-md-offset-1 col-xs-7">
+					<nav class="navbar navbar-default">
+					  <div class="container-fluid nav-bar">
+					    <!-- Brand and toggle get grouped for better mobile display -->
+					    <div class="navbar-header">
+					      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					      </button>
+					    </div>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+					    <!-- Collect the nav links, forms, and other content for toggling -->
+					    <div class="collapse navbar-collapse navbar-def" id="bs-example-navbar-collapse-1">
+					      
+					      <ul class="nav navbar-nav navbar-right">
+					        <li>
+						<a href="#wrapper"><i class="fa fa-home"></i> Home</a>
+					</li>
+					<li>
+						<a href="#about"><i class="fa fa-bookmark"></i> About</a>
+					</li>
+					<!--<li>
+						<a href="#portfolio"><i class="fa fa-bookmark"></i> Portfolio</a>
+					</li>-->
+					<li>
+						<a href="#services"><i class="fa fa-tasks"></i> Service</a>
+					</li>
+					<li>
+						<a href="#blog"><i class="fa fa-wordpress"></i> Blog</a>
+					</li>
+					<!--<li>
+						<a href="#testimonials"><i class="fa fa-thumbs-up"></i> Testimonial</a>
+					</li>-->
+          <li>
+						<a href="#footer"><i class="fa fa-envelope-square"></i> Contact</a>
+					</li>
+					      </ul>
+					    </div><!-- /navbar-collapse -->
+					  </div><!-- / .container-fluid -->
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+		<div id="wrapper">
+			
+			<div id="header" class="content-block">
+				<!-- <section class="top clearfix">
+					<div class="pull-left">
+						<h1><a class="logo" href="index.html">Avada <span class="logo-head">Plus</span></a></h1>
+					</div>
+					<! <div class="pull-right">
+						<a class="toggleDrawer" href="#"><i class="fa fa-bars fa-2x"></i></a>
+					</div> -->
+				</section>
+				<section class="center">
+					<div class="slogan">
+						RIGHT QA
+					</div>
+					<div class="secondary-slogan">
+						Software Testing Services
+					</div>
+				</section>
+			</div><!-- header -->
+
+			<!-- About us -->
+        <div id="about" class="about-us">
+            <div class="container about-sec">
+                <header class="block-heading cleafix">
+						<div class="title-page">
+							<p class="main-header">About us</p>
+						    <p class="sub-header">Make sure you know about us</p>
+						</div>
+					</header>
+                <div class="divide50"></div>
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <div class="aboutus-item">
+                            <i class="aboutus-icon fa fa-bug"></i>
+                            <h4 class="aboutus-title">Quality</h4>
+                            <p class="aboutus-desc">Right QA believes in quality first. Our team of highly professional software test engineers makes sure that your product remains bug free.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="aboutus-item">
+                            <i class="aboutus-icon fa fa-usd"></i>
+                            <h4 class="aboutus-title">Cost Effective</h4>
+                            <p class="aboutus-desc">Right QA's highly experienced team provides cost effective solutions for testing (manual and automated), training & placements, so that you can focus on your core business.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="aboutus-item">
+                            <i class="aboutus-icon fa fa-clock-o"></i>
+                            <h4 class="aboutus-title">Timely</h4>
+                            <p class="aboutus-desc">Right QA understands that time is money! So our talented team provides timely solutions to your problems. Be it testing, training or placement.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /About us -->
+      <!--Portfolio-->
+			<!--<div class="content-block" id="portfolio">
+				<div class="container portfolio-sec">
+					<header class="block-heading cleafix">
+						<a href="#" class="btn btn-o btn-lg pull-right">View All</a>
+						<div class="title-page">
+							<p class="main-header">Our Latest Works </p>
+						    <p class="sub-header">Take a look at some of our recent products</p>
+					    </div>
+					</header>
+					<section class="block-body">
+						<div class="row">
+							<div class="col-sm-4">
+								<a href="#" class="recent-work" style="background-image:url(assets/images/rain_1-320x240.jpg)">
+									<span class="btn btn-o-white">Lorem Rocks</span>
+								</a>
+							</div>
+							<div class="col-sm-4">
+								<a href="#" class="recent-work" style="background-image:url(assets/images/min_icons_thumb1-320x240.jpg)">
+									<span class="btn btn-o-white">Lorem Rocks</span>
+								</a>
+							</div>
+							<div class="col-sm-4">
+								<a href="#" class="recent-work" style="background-image:url(assets/images/flat_icons_thumb.jpg)">
+									<span class="btn btn-o-white">Lorem Rocks</span>
+								</a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-4">
+								<a href="#" class="recent-work" style="background-image:url(assets/images/wood-320x240.jpg)">
+									<span class="btn btn-o-white">Lorem Rocks</span>
+								</a>
+							</div>
+							<div class="col-sm-4">
+								<a href="#" class="recent-work" style="background-image:url(assets/images/bike-320x240.jpg)">
+									<span class="btn btn-o-white">Lorem Rocks</span>
+								</a>
+							</div>
+							<div class="col-sm-4">
+								<a href="#" class="recent-work" style="background-image:url(assets/images/six_1-320x240.jpg)">
+									<span class="btn btn-o-white">Lorem Rocks</span>
+								</a>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>-->
+      <!-- #portfolio -->
+
+			<div class="content-block parallax" id="services">
+				<div class="container services-sec">
+					<div class="title-page">
+						<p class="main-header">Our Services </p>
+					    <p class="sub-header">A little about what we do</p>
+					</div>
+					<section class="block-body">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="service">
+									<div class="bar">
+										<i class="fa fa-rocket"></i>
+									</div>
+									<h2 class="service-head">Testing</h2>
+									<p>We provide the following testing services</p>
+                  <ul class="bullet">
+                    <li>Functional test automation</li>
+                    <li>End to End test automation</li>
+                    <li>Automated API Testing</li>
+                    <li>Mobile test automation</li>
+                    <li>Performance testing</li>
+                    <li>Manual testing</li>
+                    <li>Test planning & documentation</li>
+                  </ul>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="service">
+									<div class="bar">
+										<i class="fa fa-tachometer"></i>
+									</div>	
+									<h2 class="service-head">Training</h2>
+									<p>Corporate training & training for individuals</p>
+                  <ul class="bullet">
+                    <li>Selenium for web automation</li>
+                    <li>Appium for mobile automation (iOS & Android)</li>
+                    <li>Cucumber for BDD</li>
+                    <li>Specflow</li>
+                    <li>Introduction to programming for testers</li>
+                    <li>API testing (manual & automated)</li>
+                    <li>Be a test automation engineer</li>
+                  </ul>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="service">
+									<div class="bar">
+										<i class="fa fa-users"></i>
+									</div>	
+									<h2 class="service-head">Recruitment</h2>
+									<p>We can help you find the best QA engineers</p>
+                  <ul class="bullet">
+                    <li>Permanent</li>
+                    <li>Contract</li>
+                    <li>Remote QA</li>
+                    <li>On demand testing</li>                    
+                  </ul>
+                  <p>QA engineers, submit your resume for your next great opportunity</p>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div><!-- #services -->
+
+<!-- Commenting the whole blog section-->
+			<div class="content-block" id="blog">
+				<div class="container blog-sec">
+					<header class="block-heading cleafix">
+						<a href="http://blog.rightqa.com" target="_blank"" class="btn btn-o btn-lg pull-right">View All</a>
+						<div class="title-page">
+							<p class="main-header">From the Blog</p>
+						    <p class="sub-header">Keep up with the latest happenings.</p>
+						</div>
+					</header>
+					<section class="block-body">
+						<div class="row">
+							<div class="col-sm-4 blog-post">
+								<img src="http://4.bp.blogspot.com/--50PUrTDtDY/VqKbnglQ4WI/AAAAAAAAAH4/DtkSIA2IL0Q/s1600/Connect%2BAndroid%2Bdevice%2Bwirelessly%2B%2528over%2BWi-Fi%2529%2Bto%2Byour%2Bmachine.png">
+								<a href="http://blog.rightqa.com/2016/01/connect-android-device-wirelessly-over-Wi-Fi.html" target="_blank"><h2>Connect Android device wirelessly (over Wi-Fi) to your machine</h2></a>
+								<div class="date">11 Jan, 2016</div>
+                <p>When you want to run tests on android devices, you have to connect your phone(s) to your test running machine. Adding and removing different devices to your machine is a bit of a headache and it looks messy as well. So if you want to connect your android device to your machine over Wi-Fi (wirelessly) you can do the following.</p>								
+								<a href="http://blog.rightqa.com/2016/01/connect-android-device-wirelessly-over-Wi-Fi.html" target="_blank">Read More</a>
+							</div>
+							<div class="col-sm-4 blog-post">
+								<img src="http://2.bp.blogspot.com/-kmb4Sn3JHQ8/Vd6flmHucPI/AAAAAAAAAHk/oMgKiunUNfw/s1600/Start%2BStop%2BAppium%2BServer%2BProgrammatically%2Busing%2BJava%2B%2528MAC%2BOSX%2529%2B-%2BRightQA.png">
+								<a href="http://blog.rightqa.com/2015/08/start-stop-appium-server.html" target="_blank"><h2>Start & Stop Appium Server Programmatically using Java (MAC OSX)</h2></a>
+								<div class="date">27 Aug, 2015</div>
+								<p>Appium is widely used for mobile automation these days. You have to have your Appium server up and running before you can run your automated Appium tests. Most of the times, the test engineers ensure that the Appium server is running before they start executing the test suite. But this arrangement won’t work if you want to run your Appium tests in Continuous Integration/Deployment.</p>                
+								<a href="http://blog.rightqa.com/2015/08/start-stop-appium-server.html" target="_blank">Read More</a>
+							</div>
+							<div class="col-sm-4 blog-post">
+								<img src="http://2.bp.blogspot.com/-meRglgD93a8/Vcl4gn44JsI/AAAAAAAAAG4/Jln5X-Y2Io0/s1600/Android%2BSDK%2Band%2BADB%2Bon%2BMac%2BOSX%2B-%2BDownloading%2BAndroid%2BSDK.png">
+								<a href="http://blog.rightqa.com/2015/08/install-setup-android-sdk-and-adb-on.html" target="_blank"><h2>Install & Setup Android SDK and ADB on Mac OSX </h2></a>
+								<div class="date">11 Aug, 2015</div>
+								<p>We have already seen how to install and configure Android SDK on windows. In this post we will see how to install and configure Android SDK and ADB on Mac OSX. We are using Yosemite (Mac OSX 10.10) while writing this post.</p>
+								<a href="http://blog.rightqa.com/2015/08/install-setup-android-sdk-and-adb-on.html" target="_blank">Read More</a>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div><!-- #blog -->
+
+
+			<div class="content-block parallax" id="parallax">
+				<div class="container">
+					<h3 class="call-action pull-left">Send us your query or ask for a FREE quote and we will respond in 24 hours</h3>
+					<a href="#footer" class="pull-right btn btn-o-white btn-lg">Get a free quote</a>
+				</div>
+			</div><!-- #parallax -->
+    
+      <!--Commenting Testimonial section 
+			<div class="content-block" id="testimonials">
+				<div class="container testimonial-sec">
+
+					<header class="block-heading cleafix">
+						<div class="title-page  pull-left">
+							<p class="main-header">Testimonial</p>
+						    <p class="sub-header">What our client says</p>
+						</div>
+					</header>
+					
+					<section class="block-body">
+						<div class="row">
+							<div id="carousel-example-generic" class="carousel slide" data-ride="carousel"> 
+              -->
+							  <!-- Indicators -->
+							  <!--
+                <ol class="carousel-indicators">
+							    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+							    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+							    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+							  </ol>
+                -->
+
+							  <!-- Wrapper for slides -->
+                <!--
+							  <div class="carousel-inner" role="listbox">
+							    <div class="item active">
+							      <div class="img-center">	
+							      	<img class="img-circle circular-img" src="assets/images/01_200x200.png">
+							      </div>	
+							      <h3>Create a website that you are gonna be proud of. Be it Business, Portfolio, Photography, eCommerce & much more.
+								  </h3>
+							      
+							    </div>
+							    <div class="item">
+							    	<div class="img-center">	
+							      		<img class="img-circle circular-img" src="assets/images/02_200x200.png">
+							      </div>
+							       <h3>Create a website that you are gonna be proud of. Be it Business, Portfolio, Photography, eCommerce & much more.
+								  </h3>
+							      
+							    </div>
+							    <div class="item">
+							    	<div class="img-center">	
+							      		<img class="img-circle circular-img" src="assets/images/03_200x200.png">
+							        </div>
+							       <h3>Create a website that you are gonna be proud of. Be it Business, Portfolio, Photography, eCommerce & much more.
+								  </h3>
+							      
+							    </div>
+							  </div>
+							</div>
+						</div>	
+					</section>
+				</div>
+			</div>
+      -->
+      <!-- /#testimonials -->
+
+			<div class="content-block" id="footer">
+				<div class="container">
+					<div class="row">
+							<div class="col-sm-6 blog-post">								
+								<h2 class="footer-block">Have a question</h2>
+								<p>Do you have query about how we can help you?</p>
+                <p>Do you want your product to be tested?</p>
+                <p>Are you a manual tester who want to make a career switch to test automation?</p>
+                <p>Are you looking to hire a QA engineer (permanent, contract, temp or remote)?</p>
+								<p>Just fill out the form to the right with your details and we will get back to you in 24 hours.</p>
+							</div>
+							<div class="col-sm-6 blog-post">
+								<h2 class="footer-block">Leave us a message</h2>
+								<!--<form class="" role="form" id="contact" onsubmit="your_ajax_function();">-->
+									<form class="" role="form" action="//formspree.io/hi.rightqa@gmail.com" method="POST">
+                  <div class="form-group">
+								    	<!--<input type="text" class="form-control form-control-white" placeholder="Your Name" required>-->
+                      <input type="text" name="name" class="form-control form-control-white" placeholder="Your Name" required>
+								  	</div>
+								    <div class="form-group">
+								    	<input type="email" name="_replyto" class="form-control form-control-white" placeholder="Enter email" required>
+								    </div>
+								    <div class="form-group">
+								    	<textarea name="body" class="form-control form-control-white" placeholder="Write Something" required></textarea>
+								    </div>
+								    <div class="form-group">
+								    	<input type="submit" class="text-center btn btn-o-white" value="Say Hello">
+								  	</div>
+                    <input type="hidden" name="_subject" value="New submission!" />
+                    <input type="text" name="_gotcha" style="display:none" />
+                    <input type="hidden" name="_next" value="//rightqa.com/index.html?submitted=true" />
+								</form>
+                
+							</div>
+							<!--<div class="col-sm-4 blog-post">
+								
+								<h2 class="footer-block">Contact Details</h2>
+								<ul>
+									<li class="address-sub"><i class="fa fa-map-marker"></i>Office Address</li>
+										<p>
+											Blabla Parkway, P.o Box 353 Mountain View. United States of America. 
+										</p>
+									<li class="address-sub"><i class="fa fa-phone"></i>Phone</li>
+										<p>
+											Local: 1-800-123-hello<br>
+											Mobile: 1-800-123-hello
+										</p>
+									<li class="address-sub"><i class="fa fa-envelope-o"></i>Email Address</li>
+										<p>
+											info@blabla.com<br>
+											www.blabla.com
+										</p>
+								</ul>
+                
+								<div class="social">
+									<a href="https://twitter.com/_rightqa" target="_blank"><i class="fa fa-twitter"></i></a>
+									<a href="https://facebook.com/rightqa" target="_blank"><i class="fa fa-facebook"></i></a>-->
+									<!--<i class="fa fa-instagram"></i>
+									<i class="fa fa-pinterest-p"></i>
+									<i class="fa fa-google-plus"></i>
+									<i class="fa fa-skype"></i>-->
+								<!--</div>-->
+								
+							</div>
+						</div>
+				</div>
+			</div>
+			<div class="content-block footer-bottom" id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-6">&copy; Copyright Right QA 2017</div>
+						<div class="col-xs-6 text-right">Made with <i class="fa fa-heart"></i> in Sydney</div>
+					</div>
+				</div>
+			</div><!-- #footer -->
+
+		</div><!--/#wrapper-->
+
+		<script src="assets/js/jquery-2.1.3.min.js"></script>
+		<script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+		<script src="assets/js/bootstrap.js"></script>
+		<script src="assets/js/jquery.actual.min.js"></script>
+		<script src="assets/js/jquery.scrollTo.min.js"></script>
+		<script src="assets/js/script.js"></script>
+		<script src="assets/js/smoothscroll.js"></script>
+		<script type="text/javascript">
+		jQuery(document).ready(function($){
+
+		  	$(window).scroll(function() {
+		  		
+		  		console.log("asdf");
+
+				if ($(window).scrollTop() > 100 ){
+		    
+		 		$('.top-header').addClass('shows');
+		    
+		  		} else {
+		    
+		   	 	$('.top-header').removeClass('shows');
+		    
+		 		};   	
+			});
+
+		  });
+
+		jQuery('.scroll').on('click', function(e){		
+				e.preventDefault()
+		    
+		  jQuery('html, body').animate({
+		      scrollTop : jQuery(this.hash).offset().top
+		    }, 1500);
+		});
+
+    function your_ajax_function(){  
+    jQuery.ajax({        
+         url: "//formspree.io/hi.rightqa@gmail.com",
+         method: "POST",
+         data: {message: "hello!"},
+         dataType: "json",
+         success: function(response) {
+            alert("Submitted comment"); 
+             //$("#commentList").append("Name:" + $("#name").val() + "<br/>comment:" + $("#body").val());
+         },
+        error: function(response) {
+             //$("#commentList").append($("#name").val() + "<br/>" + $("#body").val());
+            alert("There was an error submitting comment");
+        }
+     });
+};
+
+
+		</script>
+
+
+	</body>
+</html>
