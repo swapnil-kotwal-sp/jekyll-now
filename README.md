@@ -1,1 +1,1 @@
-# rightqa.github.io
+https://swapnil-kotwal-sp.github.io
